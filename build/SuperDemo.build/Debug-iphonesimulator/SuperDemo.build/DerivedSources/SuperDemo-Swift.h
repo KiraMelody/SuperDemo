@@ -109,6 +109,21 @@ SWIFT_CLASS("_TtC9SuperDemo11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class NSIndexPath;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9SuperDemo6Detail")
+@interface Detail : UIViewController
+@property (nonatomic, strong) UILabel * __nonnull titleLabel;
+@property (nonatomic, strong) UILabel * __nonnull descLabel;
+@property (nonatomic, strong) NSIndexPath * __null_unspecified selectIndexPath;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9SuperDemo4Item")
 @interface Item : NSObject
@@ -118,9 +133,6 @@ SWIFT_CLASS("_TtC9SuperDemo4Item")
 - (nonnull instancetype)initWithTitle:(NSString * __nonnull)title desc:(NSString * __nonnull)desc OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class NSIndexPath;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC9SuperDemo13TableViewCell")
 @interface TableViewCell : UITableViewCell
@@ -132,7 +144,7 @@ SWIFT_CLASS("_TtC9SuperDemo13TableViewCell")
 @end
 
 @class UISearchController;
-@class NSBundle;
+@class UITableView;
 
 SWIFT_CLASS("_TtC9SuperDemo14ViewController")
 @interface ViewController : UITableViewController
@@ -142,16 +154,15 @@ SWIFT_CLASS("_TtC9SuperDemo14ViewController")
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
+- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 @interface ViewController (SWIFT_EXTENSION(SuperDemo)) <UISearchResultsUpdating>
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
-- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)updateSearchResultsForSearchController:(UISearchController * __nonnull)searchController;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * __nonnull)tableView;

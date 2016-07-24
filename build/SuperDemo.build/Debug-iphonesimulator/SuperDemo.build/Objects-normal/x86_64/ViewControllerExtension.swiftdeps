@@ -5,34 +5,32 @@ provides-nominal:
 provides-member:
 - ["C9SuperDemo14ViewController", ""]
 provides-dynamic-lookup:
-- "tableView"
+- "numberOfSectionsInTableView"
 - "tableView"
 - "tableView"
 - "tableView"
 - "updateSearchResultsForSearchController"
-- "numberOfSectionsInTableView"
 depends-top-level:
-- !private "TableViewCell"
-- !private "StringLiteralType"
-- "UISearchController"
-- "UISearchResultsUpdating"
-- !private "NSArray"
 - "NSIndexPath"
-- "UITableViewCell"
-- !private "Item"
-- "UITableView"
-- "Int"
 - "ViewController"
-- !private "BooleanLiteralType"
+- "UISearchResultsUpdating"
 - "CGFloat"
+- !private "TableViewCell"
+- !private "NSArray"
+- "UITableView"
+- "UITableViewCell"
+- "Int"
+- !private "StringLiteralType"
 - !private "NSPredicate"
+- "UISearchController"
+- !private "BooleanLiteralType"
+- !private "Item"
 depends-member:
 - !private ["PSs9AnyObject", "NSPredicate"]
 - !private ["PSs9AnyObject", "active"]
 - !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs9AnyObject", "desc"]
 - !private ["PSs9AnyObject", "descLabel"]
-- !private ["PSs9AnyObject", "deselectRowAtIndexPath"]
 - !private ["PSs9AnyObject", "filteredArrayUsingPredicate"]
 - !private ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "numberOfSectionsInTableView"]
@@ -77,7 +75,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs11CVarArgType", "desc"]
 - !private ["PSs11CVarArgType", "descLabel"]
-- !private ["PSs11CVarArgType", "deselectRowAtIndexPath"]
 - !private ["PSs11CVarArgType", "filteredArrayUsingPredicate"]
 - !private ["PSs11CVarArgType", "init"]
 - ["PSs11CVarArgType", "numberOfSectionsInTableView"]
@@ -118,7 +115,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs23CustomStringConvertible", "desc"]
 - !private ["PSs23CustomStringConvertible", "descLabel"]
-- !private ["PSs23CustomStringConvertible", "deselectRowAtIndexPath"]
 - !private ["PSs23CustomStringConvertible", "filteredArrayUsingPredicate"]
 - !private ["PSs23CustomStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
@@ -142,7 +138,6 @@ depends-member:
 - !private ["PSs9Equatable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs9Equatable", "desc"]
 - !private ["PSs9Equatable", "descLabel"]
-- !private ["PSs9Equatable", "deselectRowAtIndexPath"]
 - !private ["PSs9Equatable", "filteredArrayUsingPredicate"]
 - !private ["PSs9Equatable", "init"]
 - ["PSs9Equatable", "numberOfSectionsInTableView"]
@@ -167,7 +162,6 @@ depends-member:
 - !private ["PSs8Hashable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs8Hashable", "desc"]
 - !private ["PSs8Hashable", "descLabel"]
-- !private ["PSs8Hashable", "deselectRowAtIndexPath"]
 - !private ["PSs8Hashable", "filteredArrayUsingPredicate"]
 - !private ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "numberOfSectionsInTableView"]
@@ -224,7 +218,6 @@ depends-member:
 - !private ["PSo8NSCoding", "active"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo8NSCoding", "descLabel"]
-- !private ["PSo8NSCoding", "deselectRowAtIndexPath"]
 - !private ["PSo8NSCoding", "filteredArrayUsingPredicate"]
 - !private ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
@@ -266,7 +259,6 @@ depends-member:
 - !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo8NSObject", "desc"]
 - !private ["CSo8NSObject", "descLabel"]
-- !private ["CSo8NSObject", "deselectRowAtIndexPath"]
 - !private ["CSo8NSObject", "filteredArrayUsingPredicate"]
 - !private ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
@@ -285,7 +277,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "desc"]
 - !private ["PSo16NSObjectProtocol", "descLabel"]
-- !private ["PSo16NSObjectProtocol", "deselectRowAtIndexPath"]
 - !private ["PSo16NSObjectProtocol", "filteredArrayUsingPredicate"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
@@ -335,19 +326,16 @@ depends-member:
 - !private ["C9SuperDemo13TableViewCell", "titleLabel"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo29UIAccessibilityIdentification", "descLabel"]
-- !private ["PSo29UIAccessibilityIdentification", "deselectRowAtIndexPath"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "titleLabel"]
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo12UIAppearance", "descLabel"]
-- !private ["PSo12UIAppearance", "deselectRowAtIndexPath"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "titleLabel"]
 - !private ["PSo21UIAppearanceContainer", "NSPredicate"]
 - !private ["PSo21UIAppearanceContainer", "active"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo21UIAppearanceContainer", "descLabel"]
-- !private ["PSo21UIAppearanceContainer", "deselectRowAtIndexPath"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
 - !private ["PSo21UIAppearanceContainer", "origin"]
 - !private ["PSo21UIAppearanceContainer", "search"]
@@ -369,19 +357,16 @@ depends-member:
 - ["PSo18UIContentContainer", "updateSearchResultsForSearchController"]
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo17UICoordinateSpace", "descLabel"]
-- !private ["PSo17UICoordinateSpace", "deselectRowAtIndexPath"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo17UICoordinateSpace", "titleLabel"]
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo13UIDynamicItem", "descLabel"]
-- !private ["PSo13UIDynamicItem", "deselectRowAtIndexPath"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "titleLabel"]
 - !private ["PSo18UIFocusEnvironment", "NSPredicate"]
 - !private ["PSo18UIFocusEnvironment", "active"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo18UIFocusEnvironment", "descLabel"]
-- !private ["PSo18UIFocusEnvironment", "deselectRowAtIndexPath"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
 - !private ["PSo18UIFocusEnvironment", "origin"]
 - !private ["PSo18UIFocusEnvironment", "search"]
@@ -407,7 +392,6 @@ depends-member:
 - !private ["CSo11UIResponder", "active"]
 - !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo11UIResponder", "descLabel"]
-- !private ["CSo11UIResponder", "deselectRowAtIndexPath"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
 - !private ["CSo11UIResponder", "origin"]
 - !private ["CSo11UIResponder", "search"]
@@ -418,7 +402,6 @@ depends-member:
 - !private ["CSo11UIResponder", "titleLabel"]
 - ["CSo11UIResponder", "updateSearchResultsForSearchController"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
-- !private ["CSo12UIScrollView", "deselectRowAtIndexPath"]
 - !private ["PSo20UIScrollViewDelegate", "NSPredicate"]
 - ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
 - !private ["PSo20UIScrollViewDelegate", "origin"]
@@ -445,7 +428,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "tableView"]
 - ["PSo16UIStateRestoring", "updateSearchResultsForSearchController"]
 - !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
-- !private ["CSo11UITableView", "deselectRowAtIndexPath"]
 - !private ["CSo15UITableViewCell", "deinit"]
 - !private ["CSo15UITableViewCell", "descLabel"]
 - !private ["CSo15UITableViewCell", "titleLabel"]
@@ -484,7 +466,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "active"]
 - !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo18UITraitEnvironment", "descLabel"]
-- !private ["PSo18UITraitEnvironment", "deselectRowAtIndexPath"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
 - !private ["PSo18UITraitEnvironment", "origin"]
 - !private ["PSo18UITraitEnvironment", "search"]
@@ -496,7 +477,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "updateSearchResultsForSearchController"]
 - !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo6UIView", "descLabel"]
-- !private ["CSo6UIView", "deselectRowAtIndexPath"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo6UIView", "titleLabel"]
 - ["CSo16UIViewController", "CGFloat"]
@@ -579,7 +559,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "count"]
 - !private ["PSs12_Reflectable", "dequeueReusableCellWithIdentifier"]
 - !private ["PSs12_Reflectable", "descLabel"]
-- !private ["PSs12_Reflectable", "deselectRowAtIndexPath"]
 - !private ["PSs12_Reflectable", "filteredArrayUsingPredicate"]
 - !private ["PSs12_Reflectable", "removeAll"]
 - !private ["PSs12_Reflectable", "subscript"]
@@ -695,4 +674,4 @@ depends-external:
 - "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
-interface-hash: "0cf8a4c4cd274bae16839da967f7b065"
+interface-hash: "8680b871c5ff06771609b08eb8fb16b9"

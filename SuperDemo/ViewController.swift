@@ -50,7 +50,11 @@ class ViewController: UITableViewController {
         super.didReceiveMemoryWarning()
     }
 
-
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let vc = Detail();
+        vc.selectIndexPath = indexPath
+        self.navigationController!.pushViewController(vc,animated:true);
+    }
 
 }
 
