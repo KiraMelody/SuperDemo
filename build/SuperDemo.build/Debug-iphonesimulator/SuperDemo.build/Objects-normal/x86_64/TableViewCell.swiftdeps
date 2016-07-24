@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TableViewCell"
+provides-nominal:
+- "C9SuperDemo13TableViewCell"
+provides-member:
+- ["C9SuperDemo13TableViewCell", ""]
+provides-dynamic-lookup:
+- "descLabel"
+- "titleLabel"
+- "select"
+depends-top-level:
+- !private "StringLiteralType"
+- "String"
+- "NSCoder"
+- "UILabel"
+- "UITableViewCellStyle"
+- !private "Void"
+- "UITableViewCell"
+- "NSIndexPath"
+- !private "UIFont"
+- "TableViewCell"
+depends-member:
+- !private ["PSs9AnyObject", "UIFont"]
+- ["PSs9AnyObject", "UILabel"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "bottom"]
+- !private ["PSs9AnyObject", "contentView"]
+- ["PSs9AnyObject", "descLabel"]
+- !private ["PSs9AnyObject", "font"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "leading"]
+- ["PSs9AnyObject", "select"]
+- !private ["PSs9AnyObject", "snp_makeConstraints"]
+- !private ["PSs9AnyObject", "systemFontOfSize"]
+- ["PSs9AnyObject", "titleLabel"]
+- !private ["PSs9AnyObject", "top"]
+- ["PSs9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "deinit"]
+- !private ["VSC6CGSize", "deinit"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- ["PSs11CVarArgType", "UILabel"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "contentView"]
+- ["PSs11CVarArgType", "descLabel"]
+- !private ["PSs11CVarArgType", "font"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "select"]
+- !private ["PSs11CVarArgType", "snp_makeConstraints"]
+- !private ["PSs11CVarArgType", "systemFontOfSize"]
+- ["PSs11CVarArgType", "titleLabel"]
+- ["PSs11CVarArgType", ""]
+- !private ["P7SnapKit29ConstraintDescriptionEditable", "offset"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "equalTo"]
+- !private ["P7SnapKit32ConstraintDescriptionFinalizable", "offset"]
+- !private ["P7SnapKit33ConstraintDescriptionPriortizable", "offset"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "equalTo"]
+- !private ["C7SnapKit15ConstraintMaker", "bottom"]
+- !private ["C7SnapKit15ConstraintMaker", "leading"]
+- !private ["C7SnapKit15ConstraintMaker", "top"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- ["PSs23CustomStringConvertible", "UILabel"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "contentView"]
+- ["PSs23CustomStringConvertible", "descLabel"]
+- !private ["PSs23CustomStringConvertible", "font"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "select"]
+- !private ["PSs23CustomStringConvertible", "snp_makeConstraints"]
+- !private ["PSs23CustomStringConvertible", "systemFontOfSize"]
+- ["PSs23CustomStringConvertible", "titleLabel"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "UIFont"]
+- ["PSs9Equatable", "UILabel"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "contentView"]
+- ["PSs9Equatable", "descLabel"]
+- !private ["PSs9Equatable", "font"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "select"]
+- !private ["PSs9Equatable", "snp_makeConstraints"]
+- !private ["PSs9Equatable", "systemFontOfSize"]
+- ["PSs9Equatable", "titleLabel"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "UIFont"]
+- ["PSs8Hashable", "UILabel"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "contentView"]
+- ["PSs8Hashable", "descLabel"]
+- !private ["PSs8Hashable", "font"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "select"]
+- !private ["PSs8Hashable", "snp_makeConstraints"]
+- !private ["PSs8Hashable", "systemFontOfSize"]
+- ["PSs8Hashable", "titleLabel"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "UIFont"]
+- ["PSo8NSCoding", "UILabel"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "contentView"]
+- ["PSo8NSCoding", "descLabel"]
+- !private ["PSo8NSCoding", "font"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "select"]
+- !private ["PSo8NSCoding", "snp_makeConstraints"]
+- ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "systemFontOfSize"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITableViewCellStyle"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "contentView"]
+- ["CSo8NSObject", "descLabel"]
+- !private ["CSo8NSObject", "font"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "select"]
+- !private ["CSo8NSObject", "snp_makeConstraints"]
+- !private ["CSo8NSObject", "systemFontOfSize"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- ["PSo16NSObjectProtocol", "UILabel"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- ["PSo16NSObjectProtocol", "descLabel"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "select"]
+- !private ["PSo16NSObjectProtocol", "snp_makeConstraints"]
+- !private ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C9SuperDemo13TableViewCell", "NSCoder"]
+- ["C9SuperDemo13TableViewCell", "NSIndexPath"]
+- ["C9SuperDemo13TableViewCell", "String"]
+- !private ["C9SuperDemo13TableViewCell", "UIFont"]
+- ["C9SuperDemo13TableViewCell", "UILabel"]
+- ["C9SuperDemo13TableViewCell", "UITableViewCellStyle"]
+- !private ["C9SuperDemo13TableViewCell", "Void"]
+- !private ["C9SuperDemo13TableViewCell", "contentView"]
+- ["C9SuperDemo13TableViewCell", "deinit"]
+- ["C9SuperDemo13TableViewCell", "descLabel"]
+- ["C9SuperDemo13TableViewCell", "init"]
+- ["C9SuperDemo13TableViewCell", "select"]
+- ["C9SuperDemo13TableViewCell", "titleLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- ["PSo29UIAccessibilityIdentification", "UILabel"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
+- ["PSo29UIAccessibilityIdentification", "descLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "select"]
+- !private ["PSo29UIAccessibilityIdentification", "snp_makeConstraints"]
+- ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIFont"]
+- ["PSo12UIAppearance", "UILabel"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "contentView"]
+- ["PSo12UIAppearance", "descLabel"]
+- !private ["PSo12UIAppearance", "font"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "select"]
+- !private ["PSo12UIAppearance", "snp_makeConstraints"]
+- ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- ["PSo21UIAppearanceContainer", "UILabel"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
+- ["PSo21UIAppearanceContainer", "descLabel"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "select"]
+- !private ["PSo21UIAppearanceContainer", "snp_makeConstraints"]
+- ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- ["PSo17UICoordinateSpace", "UILabel"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "contentView"]
+- ["PSo17UICoordinateSpace", "descLabel"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "select"]
+- !private ["PSo17UICoordinateSpace", "snp_makeConstraints"]
+- ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- ["PSo13UIDynamicItem", "UILabel"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "contentView"]
+- ["PSo13UIDynamicItem", "descLabel"]
+- !private ["PSo13UIDynamicItem", "font"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "select"]
+- !private ["PSo13UIDynamicItem", "snp_makeConstraints"]
+- ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["VSC12UIEdgeInsets", "deinit"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- ["PSo18UIFocusEnvironment", "UILabel"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
+- ["PSo18UIFocusEnvironment", "descLabel"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "select"]
+- !private ["PSo18UIFocusEnvironment", "snp_makeConstraints"]
+- ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "systemFontOfSize"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIFont"]
+- ["PSo27UIGestureRecognizerDelegate", "UILabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contentView"]
+- ["PSo27UIGestureRecognizerDelegate", "descLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "select"]
+- ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "deinit"]
+- !private ["CSo7UILabel", "font"]
+- ["CSo7UILabel", "init"]
+- !private ["CSo7UILabel", "snp_makeConstraints"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITableViewCellStyle"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "contentView"]
+- ["CSo11UIResponder", "descLabel"]
+- !private ["CSo11UIResponder", "font"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "select"]
+- !private ["CSo11UIResponder", "snp_makeConstraints"]
+- ["CSo11UIResponder", "titleLabel"]
+- ["CSo15UITableViewCell", "NSCoder"]
+- ["CSo15UITableViewCell", "NSIndexPath"]
+- ["CSo15UITableViewCell", "String"]
+- !private ["CSo15UITableViewCell", "UIFont"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITableViewCellStyle"]
+- !private ["CSo15UITableViewCell", "Void"]
+- !private ["CSo15UITableViewCell", "contentView"]
+- ["CSo15UITableViewCell", "descLabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "select"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- ["PSo18UITraitEnvironment", "UILabel"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
+- ["PSo18UITraitEnvironment", "descLabel"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "select"]
+- !private ["PSo18UITraitEnvironment", "snp_makeConstraints"]
+- ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "NSIndexPath"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIFont"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITableViewCellStyle"]
+- !private ["CSo6UIView", "Void"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "contentView"]
+- !private ["CSo6UIView", "deinit"]
+- ["CSo6UIView", "descLabel"]
+- !private ["CSo6UIView", "font"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "select"]
+- !private ["CSo6UIView", "snp_makeConstraints"]
+- ["CSo6UIView", "titleLabel"]
+- !private ["PSs12_Reflectable", "UIFont"]
+- ["PSs12_Reflectable", "UILabel"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "contentView"]
+- ["PSs12_Reflectable", "descLabel"]
+- !private ["PSs12_Reflectable", "font"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "select"]
+- !private ["PSs12_Reflectable", "snp_makeConstraints"]
+- ["PSs12_Reflectable", "titleLabel"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- !private "P7SnapKit29ConstraintDescriptionEditable"
+- !private "P7SnapKit31ConstraintDescriptionExtendable"
+- !private "P7SnapKit32ConstraintDescriptionFinalizable"
+- !private "P7SnapKit33ConstraintDescriptionPriortizable"
+- !private "P7SnapKit30ConstraintDescriptionRelatable"
+- !private "C7SnapKit15ConstraintMaker"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C9SuperDemo13TableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- !private "VSC12UIEdgeInsets"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "05c63bfbdced05c4ea5ee55e7a1f54c3"

@@ -8,17 +8,48 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UITableViewController {
+
+    //var tableView:UITableView!
+    
+    var searchView = UISearchController()
+    
+    var origin: [Item] = [Item(title: "a",desc: "aaa")]
+    
+    var search = [Item](){
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tableView = UITableView(frame: UIScreen.mainScreen().bounds,style:UITableViewStyle.Plain)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: "TableViewCell")
+        searchView = ({
+            let controller = UISearchController(searchResultsController: nil)
+            controller.searchResultsUpdater = self
+            controller.hidesNavigationBarDuringPresentation = false
+            controller.dimsBackgroundDuringPresentation = false
+            controller.searchBar.searchBarStyle = .Minimal
+            controller.searchBar.sizeToFit()
+            tableView.tableHeaderView = controller.searchBar
+            return controller
+        })()
     }
-
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        tableView.reloadData()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+
 
 
 }

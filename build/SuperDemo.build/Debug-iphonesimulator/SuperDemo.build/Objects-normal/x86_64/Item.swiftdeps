@@ -1,0 +1,74 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Item"
+provides-nominal:
+- "C9SuperDemo4Item"
+provides-member:
+- ["C9SuperDemo4Item", ""]
+provides-dynamic-lookup:
+- "desc"
+- "title"
+depends-top-level:
+- "StringLiteralType"
+- "Item"
+- "NSObject"
+- "String"
+depends-member:
+- ["PSs9AnyObject", "desc"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "desc"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "desc"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "desc"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "desc"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", ""]
+- ["C9SuperDemo4Item", "String"]
+- ["C9SuperDemo4Item", "deinit"]
+- ["C9SuperDemo4Item", "desc"]
+- ["C9SuperDemo4Item", "init"]
+- ["C9SuperDemo4Item", "title"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "desc"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "desc"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C9SuperDemo4Item"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "2ec4e8629ac46d4e1778c7f17695a5a8"
