@@ -6,22 +6,25 @@ provides-nominal:
 provides-member:
 - ["C9SuperDemo6Detail", ""]
 provides-dynamic-lookup:
-- "descLabel"
-- "selectIndexPath"
 - "viewDidLoad"
 - "titleLabel"
+- "selectIndexPath"
+- "descLabel"
 depends-top-level:
 - !private "Void"
-- !private "UIFont"
-- "UILabel"
-- "Detail"
-- "UIViewController"
 - "NSIndexPath"
+- "UIViewController"
+- "Detail"
+- !private "UIColor"
+- "UILabel"
 - !private "StringLiteralType"
+- !private "UIFont"
 depends-member:
+- !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIFont"]
 - ["PSs9AnyObject", "UILabel"]
 - !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "backgroundColor"]
 - !private ["PSs9AnyObject", "bottom"]
 - !private ["PSs9AnyObject", "centerX"]
 - ["PSs9AnyObject", "descLabel"]
@@ -35,13 +38,16 @@ depends-member:
 - !private ["PSs9AnyObject", "top"]
 - !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
+- !private ["PSs9AnyObject", "whiteColor"]
 - ["PSs9AnyObject", ""]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["VSC7CGPoint", "deinit"]
 - !private ["VSC6CGSize", "deinit"]
+- !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIFont"]
 - ["PSs11CVarArgType", "UILabel"]
 - !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
 - ["PSs11CVarArgType", "descLabel"]
 - !private ["PSs11CVarArgType", "font"]
 - ["PSs11CVarArgType", "init"]
@@ -51,6 +57,7 @@ depends-member:
 - ["PSs11CVarArgType", "titleLabel"]
 - !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "whiteColor"]
 - ["PSs11CVarArgType", ""]
 - !private ["P7SnapKit29ConstraintDescriptionEditable", "offset"]
 - !private ["P7SnapKit31ConstraintDescriptionExtendable", "equalTo"]
@@ -61,9 +68,11 @@ depends-member:
 - !private ["C7SnapKit15ConstraintMaker", "centerX"]
 - !private ["C7SnapKit15ConstraintMaker", "leading"]
 - !private ["C7SnapKit15ConstraintMaker", "top"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIFont"]
 - ["PSs23CustomStringConvertible", "UILabel"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
 - ["PSs23CustomStringConvertible", "descLabel"]
 - !private ["PSs23CustomStringConvertible", "font"]
 - ["PSs23CustomStringConvertible", "init"]
@@ -73,8 +82,10 @@ depends-member:
 - ["PSs23CustomStringConvertible", "titleLabel"]
 - !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
 - ["PSs23CustomStringConvertible", ""]
 - ["C9SuperDemo6Detail", "NSIndexPath"]
+- !private ["C9SuperDemo6Detail", "UIColor"]
 - !private ["C9SuperDemo6Detail", "UIFont"]
 - ["C9SuperDemo6Detail", "UILabel"]
 - !private ["C9SuperDemo6Detail", "Void"]
@@ -85,9 +96,11 @@ depends-member:
 - ["C9SuperDemo6Detail", "titleLabel"]
 - !private ["C9SuperDemo6Detail", "view"]
 - ["C9SuperDemo6Detail", "viewDidLoad"]
+- !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIFont"]
 - ["PSs9Equatable", "UILabel"]
 - !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "backgroundColor"]
 - ["PSs9Equatable", "descLabel"]
 - !private ["PSs9Equatable", "font"]
 - ["PSs9Equatable", "init"]
@@ -97,10 +110,13 @@ depends-member:
 - ["PSs9Equatable", "titleLabel"]
 - !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "whiteColor"]
 - ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIFont"]
 - ["PSs8Hashable", "UILabel"]
 - !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "backgroundColor"]
 - ["PSs8Hashable", "descLabel"]
 - !private ["PSs8Hashable", "font"]
 - ["PSs8Hashable", "init"]
@@ -110,11 +126,14 @@ depends-member:
 - ["PSs8Hashable", "titleLabel"]
 - !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
+- !private ["PSs8Hashable", "whiteColor"]
 - ["PSs8Hashable", ""]
 - !private ["SQ", "deinit"]
+- !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIFont"]
 - ["PSo8NSCoding", "UILabel"]
 - !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "backgroundColor"]
 - ["PSo8NSCoding", "descLabel"]
 - !private ["PSo8NSCoding", "font"]
 - ["PSo8NSCoding", "init"]
@@ -123,8 +142,11 @@ depends-member:
 - ["PSo8NSCoding", "titleLabel"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "whiteColor"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "systemFontOfSize"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIFont"]
 - ["PSo26NSExtensionRequestHandling", "UILabel"]
 - ["PSo26NSExtensionRequestHandling", "descLabel"]
@@ -135,10 +157,12 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "NSIndexPath"]
+- !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIFont"]
 - ["CSo8NSObject", "UILabel"]
 - !private ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "backgroundColor"]
 - ["CSo8NSObject", "descLabel"]
 - !private ["CSo8NSObject", "font"]
 - ["CSo8NSObject", "init"]
@@ -148,9 +172,12 @@ depends-member:
 - ["CSo8NSObject", "titleLabel"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIFont"]
 - ["PSo16NSObjectProtocol", "UILabel"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - ["PSo16NSObjectProtocol", "descLabel"]
 - !private ["PSo16NSObjectProtocol", "font"]
 - ["PSo16NSObjectProtocol", "init"]
@@ -160,18 +187,24 @@ depends-member:
 - ["PSo16NSObjectProtocol", "titleLabel"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "font"]
 - ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "snp_makeConstraints"]
 - !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "font"]
 - ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "snp_makeConstraints"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIFont"]
 - ["PSo21UIAppearanceContainer", "UILabel"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - ["PSo21UIAppearanceContainer", "descLabel"]
 - !private ["PSo21UIAppearanceContainer", "font"]
 - ["PSo21UIAppearanceContainer", "init"]
@@ -181,6 +214,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIFont"]
 - ["PSo18UIContentContainer", "UILabel"]
 - ["PSo18UIContentContainer", "descLabel"]
@@ -191,17 +226,21 @@ depends-member:
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
 - !private ["PSo17UICoordinateSpace", "font"]
 - ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "snp_makeConstraints"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
 - !private ["PSo13UIDynamicItem", "font"]
 - ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "snp_makeConstraints"]
 - !private ["VSC12UIEdgeInsets", "deinit"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIFont"]
 - ["PSo18UIFocusEnvironment", "UILabel"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
 - ["PSo18UIFocusEnvironment", "descLabel"]
 - !private ["PSo18UIFocusEnvironment", "font"]
 - ["PSo18UIFocusEnvironment", "init"]
@@ -217,10 +256,12 @@ depends-member:
 - ["CSo7UILabel", "init"]
 - !private ["CSo7UILabel", "snp_makeConstraints"]
 - ["CSo11UIResponder", "NSIndexPath"]
+- !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIFont"]
 - ["CSo11UIResponder", "UILabel"]
 - !private ["CSo11UIResponder", "Void"]
 - !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "backgroundColor"]
 - ["CSo11UIResponder", "descLabel"]
 - !private ["CSo11UIResponder", "font"]
 - ["CSo11UIResponder", "init"]
@@ -229,6 +270,7 @@ depends-member:
 - ["CSo11UIResponder", "titleLabel"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIFont"]
 - ["PSo16UIStateRestoring", "UILabel"]
 - ["PSo16UIStateRestoring", "descLabel"]
@@ -238,9 +280,11 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIFont"]
 - ["PSo18UITraitEnvironment", "UILabel"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - ["PSo18UITraitEnvironment", "descLabel"]
 - !private ["PSo18UITraitEnvironment", "font"]
 - ["PSo18UITraitEnvironment", "init"]
@@ -251,11 +295,13 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "backgroundColor"]
 - !private ["CSo6UIView", "deinit"]
 - !private ["CSo6UIView", "font"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "snp_makeConstraints"]
 - ["CSo16UIViewController", "NSIndexPath"]
+- !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIFont"]
 - ["CSo16UIViewController", "UILabel"]
 - !private ["CSo16UIViewController", "Void"]
@@ -266,7 +312,9 @@ depends-member:
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
 - !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "backgroundColor"]
 - !private ["PSs12_Reflectable", "font"]
 - ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "snp_makeConstraints"]
@@ -292,9 +340,11 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
 - "PSo29UIAccessibilityIdentification"
 - "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
 - "PSo18UIContentContainer"
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
@@ -307,6 +357,7 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
 - "CSo16UIViewController"
+- !private "PSs24_ColorLiteralConvertible"
 - "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:

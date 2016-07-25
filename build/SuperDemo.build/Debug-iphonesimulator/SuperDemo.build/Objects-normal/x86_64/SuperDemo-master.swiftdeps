@@ -1,10 +1,12 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "042a5c64297cdbade4838361ccf22b5c"
-build_time: [522689468, 384927000]
+build_time: [522725154, 91616000]
 inputs:
-  "/Users/apple/Developer/SuperDemo/SuperDemo/TableViewCell.swift": [522680264, 0]
-  "/Users/apple/Developer/SuperDemo/SuperDemo/ViewController.swift": [522689419, 0]
-  "/Users/apple/Developer/SuperDemo/SuperDemo/Item.swift": [522678864, 0]
   "/Users/apple/Developer/SuperDemo/SuperDemo/AppDelegate.swift": [522590092, 0]
+  "/Users/apple/Developer/SuperDemo/SuperDemo/ViewController.swift": [522724668, 0]
+  "/Users/apple/Developer/SuperDemo/SuperDemo/EditCell.swift": [522725153, 0]
+  "/Users/apple/Developer/SuperDemo/SuperDemo/Item.swift": [522678864, 0]
   "/Users/apple/Developer/SuperDemo/SuperDemo/ViewControllerExtension.swift": [522689467, 0]
-  "/Users/apple/Developer/SuperDemo/SuperDemo/Detail.swift": [522689408, 0]
+  "/Users/apple/Developer/SuperDemo/SuperDemo/Detail.swift": [522689495, 0]
+  "/Users/apple/Developer/SuperDemo/SuperDemo/TableViewCell.swift": [522680264, 0]
+  "/Users/apple/Developer/SuperDemo/SuperDemo/EditTableViewController.swift": [522724886, 0]

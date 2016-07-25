@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/Pods_SuperDemo.framework/Headers",
+      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphoneos/Pods_SuperDemo.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,29 +14,29 @@
         {
           'type': 'file',
           'name': "Pods_SuperDemo-Swift.h",
-          'external-contents': "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/Pods_SuperDemo.framework/Headers/Pods_SuperDemo-Swift.h"
+          'external-contents': "/Users/apple/Developer/SuperDemo/build/Debug-iphoneos/Pods_SuperDemo.framework/Headers/Pods_SuperDemo-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/Pods_SuperDemo.framework/Modules",
+      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphoneos/Pods_SuperDemo.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/apple/Developer/SuperDemo/build/Pods.build/Debug-iphonesimulator/Pods-SuperDemo.build/module.modulemap"
+          'external-contents': "/Users/apple/Developer/SuperDemo/build/Pods.build/Debug-iphoneos/Pods-SuperDemo.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers",
+      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphoneos/SnapKit/SnapKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SnapKit-Swift.h",
-          'external-contents': "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+          'external-contents': "/Users/apple/Developer/SuperDemo/build/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
         },
         {
           'type': 'file',
@@ -47,12 +47,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules",
+      'name': "/Users/apple/Developer/SuperDemo/build/Debug-iphoneos/SnapKit/SnapKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/apple/Developer/SuperDemo/build/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
+          'external-contents': "/Users/apple/Developer/SuperDemo/build/Pods.build/Debug-iphoneos/SnapKit.build/module.modulemap"
         }
       ]
     }

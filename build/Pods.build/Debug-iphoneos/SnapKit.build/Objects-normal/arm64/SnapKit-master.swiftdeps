@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "646f7b297531a451ee13498e0813280c"
+build_time: [522749144, 612757000]
+inputs:
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/Constraint.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/ConstraintAttributes.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/ConstraintDescription.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/ConstraintItem.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/ConstraintMaker.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/ConstraintRelation.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/Debugging.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/EdgeInsets.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/LayoutConstraint.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/SnapKit.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/View+SnapKit.swift": [522589503, 0]
+  "/Users/apple/Developer/SuperDemo/Pods/SnapKit/Source/ViewController+SnapKit.swift": [522589503, 0]

@@ -28,6 +28,10 @@ class ViewController: UITableViewController {
         tableView = UITableView(frame: UIScreen.mainScreen().bounds,style:UITableViewStyle.Plain)
         tableView.delegate = self
         tableView.dataSource = self
+        self.title = "搜索"
+        let editItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add,target:self,action:"add");
+        self.navigationItem.rightBarButtonItem = editItem
+
         tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: "TableViewCell")
         searchView = ({
             let controller = UISearchController(searchResultsController: nil)
@@ -41,6 +45,12 @@ class ViewController: UITableViewController {
         })()
     }
     
+    func add ()
+    {
+        print("add")
+        let dvc = EditTableViewController();
+        self.navigationController!.pushViewController(dvc,animated:true);
+    }
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
         tableView.reloadData()

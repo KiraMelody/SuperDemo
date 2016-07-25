@@ -87,8 +87,8 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import ObjectiveC;
 @import CoreGraphics;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -124,6 +124,47 @@ SWIFT_CLASS("_TtC9SuperDemo6Detail")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
+
+SWIFT_CLASS("_TtC9SuperDemo8EditCell")
+@interface EditCell : UITableViewCell <UITextFieldDelegate>
+@property (nonatomic, strong) UILabel * __nonnull titleLabel;
+@property (nonatomic, strong) UITextField * __nonnull inputField;
+@property (nonatomic, strong) NSIndexPath * __nonnull indexPath;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (void)textFieldDidEndEditing:(UITextField * __nonnull)textField;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+@end
+
+@protocol UITableViewDelegate;
+@class Item;
+@class UITableView;
+@class UIView;
+@class UIButton;
+
+SWIFT_CLASS("_TtC9SuperDemo23EditTableViewController")
+@interface EditTableViewController : UITableViewController
+@property (nonatomic, copy) NSArray<NSString *> * __nonnull text;
+@property (nonatomic, strong) id <UITableViewDelegate> __nullable delegate;
+@property (nonatomic, copy) NSString * __nonnull TitleName;
+@property (nonatomic, copy) NSString * __nonnull Desc;
+- (void)viewDidLoad;
+- (void)fetch:(Item * __nonnull)item;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * __nonnull)tableView;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (UIView * __nullable)tableView:(UITableView * __nonnull)tableView viewForFooterInSection:(NSInteger)section;
+- (void)buttonTouched:(UIButton * __null_unspecified)sender;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForFooterInSection:(NSInteger)section;
+- (void)textDidChange:(EditCell * __nonnull)cell textField:(UITextField * __nonnull)textField;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9SuperDemo4Item")
 @interface Item : NSObject
@@ -144,7 +185,6 @@ SWIFT_CLASS("_TtC9SuperDemo13TableViewCell")
 @end
 
 @class UISearchController;
-@class UITableView;
 
 SWIFT_CLASS("_TtC9SuperDemo14ViewController")
 @interface ViewController : UITableViewController
@@ -152,6 +192,7 @@ SWIFT_CLASS("_TtC9SuperDemo14ViewController")
 @property (nonatomic, copy) NSArray<Item *> * __nonnull origin;
 @property (nonatomic, copy) NSArray<Item *> * __nonnull search;
 - (void)viewDidLoad;
+- (void)add;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;

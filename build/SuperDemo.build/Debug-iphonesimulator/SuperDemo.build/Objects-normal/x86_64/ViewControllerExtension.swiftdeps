@@ -5,26 +5,26 @@ provides-nominal:
 provides-member:
 - ["C9SuperDemo14ViewController", ""]
 provides-dynamic-lookup:
+- "updateSearchResultsForSearchController"
 - "numberOfSectionsInTableView"
 - "tableView"
 - "tableView"
 - "tableView"
-- "updateSearchResultsForSearchController"
 depends-top-level:
-- "NSIndexPath"
-- "ViewController"
 - "UISearchResultsUpdating"
-- "CGFloat"
+- "ViewController"
+- "UITableView"
+- !private "StringLiteralType"
 - !private "TableViewCell"
 - !private "NSArray"
-- "UITableView"
-- "UITableViewCell"
-- "Int"
-- !private "StringLiteralType"
-- !private "NSPredicate"
-- "UISearchController"
+- "CGFloat"
 - !private "BooleanLiteralType"
 - !private "Item"
+- "UITableViewCell"
+- "Int"
+- !private "NSPredicate"
+- "NSIndexPath"
+- "UISearchController"
 depends-member:
 - !private ["PSs9AnyObject", "NSPredicate"]
 - !private ["PSs9AnyObject", "active"]
